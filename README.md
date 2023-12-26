@@ -34,8 +34,8 @@ Users are able to:
 
 ### Links
 
-- Solution URL: (https://github.com/felixateya/preview-card)
-- Live Site URL: (https://preview-card.vercel.app)
+- Solution URL:[repo](https://github.com/felixateya/preview-card)
+- Live Site URL: [the_site] (https://preview-sage.vercel.app)
 
 ## My process
 
