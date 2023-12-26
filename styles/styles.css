@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  background-color: hsl(30, 38%, 92%);
+  width: 60%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px -1px 50px #e1dfdf, -1px 1px 50px #e1dfdf;
+  border-radius: 5px;
+}
+
+.left {
+  width: 250px;
+  height: 70%;
+  background: url(/images/image-product-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px 0 0 12px;
+}
+.right {
+  width: 250px;
+  height: 70%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0 12px 12px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.right h2 {
+  font-size: 14px;
+  font-weight: 100;
+  color: hsl(228, 12%, 48%);
+}
+.right h1 {
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+}
+
+.right p {
+  color: hsl(228, 12%, 48%);
+  font-size: 13px;
+}
+.right h3 {
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.right span {
+  font-size: 14px;
+  text-decoration: line-through;
+  font-family: "Fraunces", serif;
+  color: hsl(228, 1%, 48%);
+}
+
+.add {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: hsl(120, 55%, 9%);
+}
+
+
+@media (max-width:822px) {
+    .center{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 0;
+    }
+
+    .left{
+        width: 90%;
+        height: 40%;
+        background: url(/images//image-product-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 12px 12px 0 0;
+    }
+    .right{
+        width: 90%;
+        height: 60%; 
+        border-radius: 0 0 12px 12px;
+    }
+    .right p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
