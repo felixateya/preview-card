@@ -40,7 +40,7 @@ Users are able to:
 ## My process
 
 ### Built with
-
+- Vs Code
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -57,7 +57,7 @@ I would like to continue working on  more challenges to build on my portfolio.
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com) - This helped me for learning more on html and css reason. I really liked what i learnt and will use it going forward.
+- [W3Schools](https://www.w3schools.com) - This helped me for learning more on html and css reason. I really liked what i learnt and will use it going forward.
 
 
 
