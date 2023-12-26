@@ -64,8 +64,8 @@ I would like to continue working on  more challenges to build on my portfolio.
 
 ## Author
 
-- Website - [Add your name here](https://mulaafelix.vercel.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/felixateya)
-- Twitter - [@yourusername](https://www.twitter.com/shaft_kunta)
+- Website - [felix ateya](https://mulaafelix.vercel.app)
+- Frontend Mentor - [@felixateya](https://www.frontendmentor.io/profile/felixateya)
+- Twitter - [@shaft_kunta](https://www.twitter.com/shaft_kunta)
 
 
